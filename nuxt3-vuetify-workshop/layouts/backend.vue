@@ -5,14 +5,15 @@ import Sidebar from "~/components/backendComponents/sidebar/Sidebar.vue"
 import Header from "~/components/backendComponents/header/Header.vue"
 
 const drawer = ref(undefined || true)
-const innerW = window.innerWidth;
+// const innerW = window.innerWidth;  //ไม่ได้ใช้เพราะทำงานฝั่ง client
 const { mdAndUp, mdAndDown } = useDisplay()
 
-onMounted(() => {
-  if (innerW < 950) {
-    drawer.value = !drawer.value
-  }
-})
+//ไม่ได้ใช้เพราะทำงานฝั่ง client
+// onMounted(() => {
+//   if (innerW < 950) {
+//     drawer.value = !drawer.value
+//   }
+// })
 
 </script>
 <template>
