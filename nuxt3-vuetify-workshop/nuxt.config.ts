@@ -15,14 +15,14 @@ export default defineNuxtConfig({
   },
   modules: [
     // ต้องปิดถ้าทำบน Dev แต่ถ้า deploy จะใช้ได้
-    [
-      '@nuxtjs/robots', 
-      { 
-        UserAgent: "*",
-        Disallow: "",
-        Sitemap: "http://a69702.sitemaphosting.com/3927666/sitemap.xml"
-      },
-    ],
+    // [
+    //   '@nuxtjs/robots', 
+    //   { 
+    //     UserAgent: "*",
+    //     Disallow: "",
+    //     Sitemap: "http://a69702.sitemaphosting.com/3927666/sitemap.xml"
+    //   },
+    // ],
   ],
   });
   
